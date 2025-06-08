@@ -7,7 +7,7 @@ date: 2025-05-31
 
 - Ticket: [#36352](https://code.djangoproject.com/ticket/36352)
 - PR: [#19478](https://github.com/django/django/pull/19478)
-- Video: [coming soon]
+- Video: [https://youtu.be/B36Qey-lmkg](https://youtu.be/B36Qey-lmkg)
 
 ## Problem
 
