@@ -1,13 +1,17 @@
 ---
-title: Review -- Ticket 36352 -- values() raises a FieldError when multiple values() of annotated values are chained
+title: PR review deep dive into Ticket 36352
 date: 2025-05-31
 ---
 
+# 🚀 Space Reviewers 👾 - Episode 5
+
 ## Details
+
+This episode @ontowhee dives deep into her process for doing code reviews for Django PRs.
 
 - Ticket: [#36352](https://code.djangoproject.com/ticket/36352)
 - PR: [#19478](https://github.com/django/django/pull/19478)
-- Video: [https://youtu.be/B36Qey-lmkg](https://youtu.be/B36Qey-lmkg)
+- Video: [https://youtu.be/mPndbdezvJw](https://youtu.be/mPndbdezvJw)
 
 ## Problem
 
@@ -81,3 +85,8 @@ debugpy --wait-for-client --listen 0.0.0.0:5678 ./runtests.py annotations.tests.
 3. While the tests pass, the changes in lines 2522-2528 are not being covered by the tests. Does it need another test case? Are these lines being covered by another test?
 
 4. On tests.py line 1243, could it use qs.count() instead of len()? Is checking the length sufficient?
+
+## Resources used
+
+- [django-docker-box](https://github.com/django/django-docker-box) for testing
+- [Python Debugger Extension for VSCode](https://code.visualstudio.com/docs/python/debugging)
